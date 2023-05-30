@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
- name: marlenejb-configmap
+ name: marlenejb-config
  labels:
    app: postgres
 data:
