@@ -17,7 +17,7 @@ spec:
         name: marlenejb
         envFrom:
         configMapRef:
-            name: marlenejb-configmap
+            name: marlenejb-config
         livenessProbe:
           httpGet:
             path: /ht/
